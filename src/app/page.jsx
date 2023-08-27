@@ -12,6 +12,8 @@ const cargarTareas = async () => {
   return data;
 };
 
+export const dynamic = "force dynamic"
+
 async function Home() {
   const tareas = await cargarTareas();
   return (

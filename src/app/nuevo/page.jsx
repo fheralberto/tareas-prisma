@@ -16,7 +16,7 @@ const Nuevo = ({ params }) => {
           setDescripcion(data.tarea.descripcion);
         });
     }
-  });
+  }, []);
   const router = useRouter();
 
   const handleSubmit = async (e) => {
