@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-950 text-white min-h-screen;
+  @apply bg-gray-950 text-white;
 }
 
 .centrar{
